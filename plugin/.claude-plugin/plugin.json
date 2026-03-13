@@ -35,8 +35,5 @@
       "botorch>=0.9.0",
       "optunahub>=0.1.0"
     ]
-  },
-  "engines": {
-    "claude": ">=1.0.0"
   }
 }
