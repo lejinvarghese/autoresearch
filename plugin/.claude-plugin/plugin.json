@@ -22,10 +22,5 @@
     "machine-learning",
     "automl"
   ],
-  "dependencies": [
-    "python>=3.8",
-    "optuna>=3.0.0",
-    "pandas>=1.0.0",
-    "numpy>=1.19.0"
-  ]
+  "dependencies": []
 }
