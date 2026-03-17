@@ -31,7 +31,7 @@ Use this skill when the user:
 ## Installation Requirements
 
 ```bash
-pip install optuna pandas numpy
+pip install optuna pandas numpy cmaes
 pip install matplotlib  # Highly recommended for plots
 ```
 

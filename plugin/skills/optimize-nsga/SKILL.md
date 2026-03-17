@@ -23,7 +23,7 @@ Don't use when:
 ## Installation Requirements
 
 ```bash
-pip install optuna pandas numpy
+pip install optuna pandas numpy cmaes
 pip install matplotlib  # Optional, for plots
 ```
 

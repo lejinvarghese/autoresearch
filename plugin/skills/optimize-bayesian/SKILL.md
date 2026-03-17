@@ -25,7 +25,7 @@ Don't use when:
 ## Installation Requirements
 
 ```bash
-pip install optuna pandas numpy
+pip install optuna pandas numpy cmaes
 pip install matplotlib  # Optional, for plots
 ```
 
@@ -63,7 +63,7 @@ python ${CLAUDE_PLUGIN_ROOT}/skills/optimize-bayesian/optimize-bayesian.py \
 If the user has a custom objective function, guide them to use the Python API:
 
 ```python
-from optuna_algorithms import optimize_bayesian
+from optuna_algorithms.bayesian import optimize_bayesian
 
 def objective(trial, params):
     # User's evaluation code
@@ -72,7 +72,7 @@ def objective(trial, params):
 
 result = optimize_bayesian(
     objective,
-    search_space={'param1': (0, 1), 'param2': (10, 100)},
+    search_space={'param1': (0.0, 1.0), 'param2': (10.0, 100.0)},
     n_trials=50,
 )
 ```

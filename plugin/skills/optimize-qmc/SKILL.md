@@ -26,7 +26,7 @@ Don't use as only optimizer - always combine with adaptive method.
 ## Installation Requirements
 
 ```bash
-pip install optuna pandas numpy
+pip install optuna pandas numpy cmaes
 pip install matplotlib  # Optional, for plots
 ```
 
